@@ -1,0 +1,8 @@
+This ORM part is written with Django frame.
+You could use the following command to remove the database built by the basic operations before:
+     python3 manage.py flush
+You need to change the ALLOWED_HOST according to your virtual machine address in orm/settings.
+Then you can run the program by the following command:
+     python3 manage.py runserver 0:8000
+Turn to the address localhost:8000, you need to click on Load Data first, to create objects according to the four given files, then you can start query.
+The results will be output on the command terminal.
